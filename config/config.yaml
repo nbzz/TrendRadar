@@ -28,7 +28,7 @@ report:
   rank_threshold: 5 # 排名高亮阈值
 
 notification:
-  enable_notification: true # 是否启用通知功能，false 时不发送手机通知
+  enable_notification: false # 是否启用通知功能，false 时不发送手机通知
   message_batch_size: 4000 # 消息分批大小（字节）(这个配置别动)
   batch_send_interval: 1 # 批次发送间隔（秒）
   feishu_message_separator: "━━━━━━━━━━━━━━━━━━━" # feishu 消息分割线
@@ -69,3 +69,13 @@ platforms:
     name: "抖音"
   - id: "zhihu"
     name: "知乎"
+  - id: "cankaoxiaoxi"
+    name: "参考消息"
+  - id: "sputniknewscn"
+    name: "卫星通讯社"
+  - id: "zaobao"
+    name: "联合早报"
+  - id: "nowcoder"
+    name: "稀土掘金"
+  - id: "ithome"
+    name: "it之家"
