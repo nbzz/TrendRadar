@@ -1,0 +1,202 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 386</p><p>生成时间: 2025-10-30 19:12:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">27</td>
+                <td class="percentage">6.99%</td>
+                <td class="titles">[联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/3056126.html" target="_blank" class="news-link">特朗普：中国同意保持稀土供应 将购买美国能源</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时12分</font><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/614.htm" target="_blank" class="news-link">国产 NAS 系统飞牛 fnOS 更新 v0.9.35 发布：新增团队文件夹、相册大升级</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时12分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%AF%B9%E4%B8%AD%E5%9B%BD%E5%8A%A0%E5%BE%8124%25%E5%85%B3%E7%A8%8E%E5%B0%86%E7%BB%A7%E7%BB%AD%E6%9A%82%E5%81%9C%E4%B8%80%E5%B9%B4" target="_blank" class="news-link">美对中国加征24%关税将继续暂停一年</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时12分</font><br>[卫星通讯社] <a href="https://sputniknews.cn/20251030/1068150437.html" target="_blank" class="news-link">中国外交部：希望美方切实遵守《全面禁止核试验条约》的义务和暂停核试验的承诺</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时12分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202510/3056125.html" target="_blank" class="news-link">台陆委会：中国大陆以姻缘配对进行宗教“统战”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时12分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E2%80%9C%E7%BB%BF%E8%89%B2%E5%8A%A8%E5%8A%9B%E2%80%9D%E6%B3%A8%E5%85%A5%E4%BA%9A%E5%A4%AA" target="_blank" class="news-link">中国“绿色动力”注入亚太</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时12分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202510/3056124.html" target="_blank" class="news-link">安世前CEO被指“掏空”欧洲业务 拟将设备专利移至中国</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时12分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202510/3056122.html" target="_blank" class="news-link">习特会成果未达市场预期 中国股市应声收跌</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时12分</font><br>[卫星通讯社] <a href="https://sputniknews.cn/20251030/1068149749.html" target="_blank" class="news-link">俄副外长与中国政府特别代表讨论乌克兰危机调解事宜</a> [6] <font color='grey'>- 19时12分</font><br>[卫星通讯社] <a href="https://sputniknews.cn/20251030/1068149603.html" target="_blank" class="news-link">专家：特朗普称中国或加入核裁军谈判是个积极信号</a> [7] <font color='grey'>- 19时12分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/3056119.html" target="_blank" class="news-link">中国商务部：美国对华商品加征24%关税继续暂停一年</a> [8] <font color='grey'>- 19时12分</font><br>[it之家] <a href="https://www.ithome.com/0/893/596.htm" target="_blank" class="news-link">国产铂影 T1400 无人直升机首航成功：最大有效载荷 650 公斤，专为极端环境设计</a> [10] <font color='grey'>- 19时12分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/d8dd3171c56041be9636c15b3198dc28.html" target="_blank" class="news-link">巴基斯坦专家：中国高质量发展将取得新突破</a> [11] <font color='grey'>- 19时12分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202510/3056116.html" target="_blank" class="news-link">习近平：中国从未想挑战谁 中美不应陷入相互报复恶性循环</a> [11] <font color='grey'>- 19时12分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nsRb476SBm" target="_blank" class="news-link">中国留学生在日本失联超20天，母亲紧急寻人</a> [12] <font color='grey'>- 19时12分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/3056115.html" target="_blank" class="news-link">特朗普：中国将加大在美投资</a> [12] <font color='grey'>- 19时12分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202510/3056114.html" target="_blank" class="news-link">G7将成立关键矿产联盟 抗衡中国主导地位</a> [13] <font color='grey'>- 19时12分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/3056112.html" target="_blank" class="news-link">分析：高市愿与中国开展首脑对话 或努力保持外交平衡</a> [15] <font color='grey'>- 19时12分</font><br>[卫星通讯社] <a href="https://sputniknews.cn/20251030/1068147848.html" target="_blank" class="news-link">中国防长将出席第12届东盟防长扩大会、第15次中国—东盟防长非正式会晤</a> [17] <font color='grey'>- 19时12分</font><br>[it之家] <a href="https://www.ithome.com/0/893/586.htm" target="_blank" class="news-link">证监会同意摩尔线程首次公开发行股票注册，冲刺“国产 GPU 第一股”</a> [18] <font color='grey'>- 19时12分</font><br>[卫星通讯社] <a href="https://sputniknews.cn/20251030/1068147565.html" target="_blank" class="news-link">中国商务部介绍中美经贸成果</a> [19] <font color='grey'>- 19时12分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/1dba4a510e3b4474ab90ee8321771dac.html" target="_blank" class="news-link">日媒：中国海上风电蓬勃发展</a> [21] <font color='grey'>- 19时12分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/4cd5040e2b3a4d00813595a32a199f2a.html" target="_blank" class="news-link">日媒：中国机械巨头加快海外布局</a> [23] <font color='grey'>- 19时12分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/f1fa51a26e2944c68b799f8f4e179b54.html" target="_blank" class="news-link">外媒关注：中国提出将“明显提高”居民消费率</a> [25] <font color='grey'>- 19时12分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/12592780a6164067b5e3bf029485a9b7.html" target="_blank" class="news-link">港媒：中国致力提高科技自立自强水平</a> [26] <font color='grey'>- 19时12分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/c17bce03c2024cefab199918d2349b3e.html" target="_blank" class="news-link">美媒：中国东盟升级自贸协定“是一个及时信号”</a> [27] <font color='grey'>- 19时12分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%AD%E5%9B%BD%E5%8D%AB%E6%98%9F%E7%9C%8B%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%A5%BD%E6%B2%B3%E5%B1%B1%E5%BE%88%E6%AD%A3%E5%B8%B8%E2%80%9D" target="_blank" class="news-link">“中国卫星看中国大好河山很正常”</a> [30] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国</td>
+                <td class="count">15</td>
+                <td class="percentage">3.89%</td>
+                <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8ns4o1aiP6D" target="_blank" class="news-link">特朗普已下令立即重启美国核试验</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时12分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/f24de441e3b94904860d1b0efc57114e.html" target="_blank" class="news-link">英媒：美国悄悄补缴拖欠的WTO会费</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时12分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31854252" target="_blank" class="news-link">习近平同美国总统特朗普在韩国釜山举行会晤</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时12分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2186006" target="_blank" class="news-link">习近平同美国总统特朗普在釜山举行会晤</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时12分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/4a156d9fb62c4ef88f0c72790b0231e8.html" target="_blank" class="news-link">美媒：美国经济陷入“K型”分化态势</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时12分</font><br>[卫星通讯社] <a href="https://sputniknews.cn/20251030/1068150055.html" target="_blank" class="news-link">克宫：美国没有通知俄罗斯关于进行核试验的计划</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时12分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/56b115bc348e4c17b2726735c0b21dc3.html" target="_blank" class="news-link">美媒：美国参议院通过决议要求取消对加拿大关税</a> [7] <font color='grey'>- 19时12分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/67f21727e5de48718692526591b13c40.html" target="_blank" class="news-link">外媒：墨西哥总统反对美国在国际水域袭击船只</a> [8] <font color='grey'>- 19时12分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758273" target="_blank" class="news-link">习近平同美国总统特朗普在釜山举行会晤</a> [10] <font color='grey'>- 19时12分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31855405" target="_blank" class="news-link">习近平同美国总统特朗普在釜山举行会晤</a> [10] <font color='grey'>- 19时12分</font><br>[卫星通讯社] <a href="https://sputniknews.cn/20251030/1068149171.html" target="_blank" class="news-link">俄专家：美国核试验可能实现但需要进行长期准备工作</a> [11] <font color='grey'>- 19时12分</font><br>[知乎] <a href="https://www.zhihu.com/question/1966966107974931991" target="_blank" class="news-link">特朗普的亚洲行，从东盟和韩日等经济体获得了多少现实利益，美国又为此付出了什么，对其经济有何影响？</a> [13] <font color='grey'>- 19时12分</font><br>[it之家] <a href="https://www.ithome.com/0/893/591.htm" target="_blank" class="news-link">2025 年我国高被引论文数排名世界第 2，与美国仅差 11 篇、差距逐渐缩小</a> [15] <font color='grey'>- 19时12分</font><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2288066" target="_blank" class="news-link">美国警方：仍有3只实验猴在逃</a> [20] <font color='grey'>- 19时12分</font></div><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/7e462894494b403d8b81ffa30e1c3e24.html" target="_blank" class="news-link">德媒：美国从欧洲撤军3500人</a> [28] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">4</td>
+                <td class="percentage">1.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/606.htm" target="_blank" class="news-link">小米 20000mAh 充电宝“PB2165”上市：自带 6A 编织数据线、165W 双口组合输出，首发 269 元</a> [7] <font color='grey'>- 19时12分</font></div><br>[it之家] <a href="https://www.ithome.com/0/893/585.htm" target="_blank" class="news-link">小米 REDMI K90 系列机型均兼容 100W PPS 快充：Pro Max 已陆续推送、标准版预计 11 月升级</a> [19] <font color='grey'>- 19时12分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346461&amp;amp;topic_name=%E5%85%A5%E4%BE%B5%E9%81%AD%E9%AA%82%2C%E5%B0%8F%E7%B1%B3%E5%B9%BF%E5%91%8A%E7%8B%82%E8%BD%B0%E9%9F%B3%E5%93%8D%E5%90%A7" target="_blank" class="news-link">入侵遭骂,小米广告狂轰音响吧</a> [20] <font color='grey'>- 19时12分</font><br>[it之家] <a href="https://www.ithome.com/0/893/553.htm" target="_blank" class="news-link">长虹空调与小米智能家电达成战略合作，单联瑜称“制造业的未来不是单打独斗”</a> [28] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">4</td>
+                <td class="percentage">1.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/612.htm" target="_blank" class="news-link">外观致敬任天堂 NDSL：ANBERNIC 安伯尼克 RG DS 双屏掌机曝光，搭载 RK3568 芯片</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时12分</font></div><br>[卫星通讯社] <a href="https://sputniknews.cn/20251030/1068147954.html" target="_blank" class="news-link">特朗普与习近平讨论芯片问题</a> [16] <font color='grey'>- 19时12分</font><br>[it之家] <a href="https://www.ithome.com/0/893/577.htm" target="_blank" class="news-link">一加平板 2 开售：天玑 9400+ 芯片、3K 144Hz 高刷原彩屏，2799 元起</a> [24] <font color='grey'>- 19时12分</font><br>[it之家] <a href="https://www.ithome.com/0/893/554.htm" target="_blank" class="news-link">联发科天玑 9400++ 芯片规格曝光：台积电 N3e 工艺、样机主频 3.73GHz，可能命名为天玑 9500 系列</a> [27] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">2</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/3056118.html" target="_blank" class="news-link">【APEC花絮】美国韩裔名厨李爱德华为APEC峰会晚宴操刀</a> [9] <font color='grey'>- 19时12分</font><br>[it之家] <a href="https://www.ithome.com/0/893/588.htm" target="_blank" class="news-link">消息称华为 Mate 80 系列备案颜色“巨多”：曜石黑、雪域白、晨曦金等</a> [17] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">2</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758166" target="_blank" class="news-link">鲍威尔意外鹰派，美股盘中转跌，英伟达支撑纳指最终收涨，美债黄金比特币跌，美元拉升</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时12分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B8%82%E5%80%BC%E7%AA%81%E7%A0%B45%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83" target="_blank" class="news-link">英伟达市值突破5万亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">2</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2185897" target="_blank" class="news-link">史上最大IPO要来了？OpenAI据称筹备上市 冲击万亿美元估值</a> [6] <font color='grey'>- 19时12分</font><br>[it之家] <a href="https://www.ithome.com/0/893/564.htm" target="_blank" class="news-link">文远知行创始人韩旭：L5 级自动驾驶的实现将是行业的“ChatGPT 时刻”</a> [25] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31533770" target="_blank" class="news-link">那些“染上网瘾”的老年人，要怎么和AI相处？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时12分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/7b57aaa4fe574d3b81abea52a8ea6c34.html" target="_blank" class="news-link">聚焦大型项目与人工智能 沙特举办“未来投资倡议”峰会</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">手机</td>
+                <td class="count">2</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1966063994721773265" target="_blank" class="news-link">手机内存不是国产化了吗？为什么 2025 年手机内存价格会爆涨？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时12分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%88%B6%E6%AF%8D%E6%89%8B%E6%9C%BA%E9%87%8C%E7%9A%84%E2%80%9C%E5%B9%BD%E7%81%B5%E6%89%A3%E6%AC%BE%E2%80%9D" target="_blank" class="news-link">父母手机里的“幽灵扣款”</a> [28] <font color='grey'>- 19时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/610.htm" target="_blank" class="news-link">芯联集成完成国内首单集成电路民营企业科技创新债券发行，金额 5 亿元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时12分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2186324" target="_blank" class="news-link">【每日收评】创业板指放量跌近2%，全市场4100股收绿，量子科技概念逆势活跃</a> [10] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>11</td>
+                <td class="word">新质生产力</td>
+                <td class="count">2</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[抖音] <a href="https://www.douyin.com/hot/2288716" target="_blank" class="news-link">新质生产力加速成长</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时12分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7565826579386122282/" target="_blank" class="news-link">看新质生产力引领“新”生活</a> [9] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>12</td>
+                <td class="word">比亚迪 王传福</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[it之家] <a href="https://www.ithome.com/0/893/600.htm" target="_blank" class="news-link">比亚迪电子前三季度净利润 31.37 亿元，同比增长 2.4%</a> [8] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>13</td>
+                <td class="word">京东 刘强东</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31852446" target="_blank" class="news-link">双十一期间“二选一”？直播间价格竞争？京东、抖音、美的三方回应</a> [8] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>14</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[it之家] <a href="https://www.ithome.com/0/893/599.htm" target="_blank" class="news-link">揭秘特斯拉如何保密 Autopilot 技术：员工只能访问少数数据，电脑锁死 USB 接口</a> [9] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>15</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/1c9ea8289f99463a845125b63494ac34.html" target="_blank" class="news-link">苹果市值首破4万亿美元关口</a> [6] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+            <tr>
+                <td>16</td>
+                <td class="word">月球 登月 火星 宇宙 飞船</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[抖音] <a href="https://www.douyin.com/hot/2288139" target="_blank" class="news-link">我国锚定2030年前实现登月</a> [9] <font color='grey'>- 19时12分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 10 条)</h3>
+        <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%88%B6%E6%AF%8D%E6%89%8B%E6%9C%BA%E9%87%8C%E7%9A%84%E2%80%9C%E5%B9%BD%E7%81%B5%E6%89%A3%E6%AC%BE%E2%80%9D" target="_blank" class="news-link">父母手机里的“幽灵扣款”</a> [28]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B8%82%E5%80%BC%E7%AA%81%E7%A0%B45%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83" target="_blank" class="news-link">英伟达市值突破5万亿美元</a> <font color='red'><strong>[3]</strong></font></li></ul><h4>抖音 (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2288066" target="_blank" class="news-link">美国警方：仍有3只实验猴在逃</a> [20]</li></ul><h4>卫星通讯社 (3 条)</h4><ul><li><a href="https://sputniknews.cn/20251030/1068150437.html" target="_blank" class="news-link">中国外交部：希望美方切实遵守《全面禁止核试验条约》的义务和暂停核试验的承诺</a> <font color='red'><strong>[2]</strong></font></li><li><a href="https://sputniknews.cn/20251030/1068150055.html" target="_blank" class="news-link">克宫：美国没有通知俄罗斯关于进行核试验的计划</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://sputniknews.cn/20251030/1068149749.html" target="_blank" class="news-link">俄副外长与中国政府特别代表讨论乌克兰危机调解事宜</a> [6]</li></ul><h4>it之家 (4 条)</h4><ul><li><a href="https://www.ithome.com/0/893/614.htm" target="_blank" class="news-link">国产 NAS 系统飞牛 fnOS 更新 v0.9.35 发布：新增团队文件夹、相册大升级</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://www.ithome.com/0/893/612.htm" target="_blank" class="news-link">外观致敬任天堂 NDSL：ANBERNIC 安伯尼克 RG DS 双屏掌机曝光，搭载 RK3568 芯片</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://www.ithome.com/0/893/610.htm" target="_blank" class="news-link">芯联集成完成国内首单集成电路民营企业科技创新债券发行，金额 5 亿元</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.ithome.com/0/893/606.htm" target="_blank" class="news-link">小米 20000mAh 充电宝“PB2165”上市：自带 6A 编织数据线、165W 双口组合输出，首发 269 元</a> [7]</li></ul></div>
+    </body>
+    </html>
+    
