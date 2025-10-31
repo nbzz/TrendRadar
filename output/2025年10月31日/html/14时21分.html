@@ -1,0 +1,202 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 385</p><p>生成时间: 2025-10-31 14:21:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国</td>
+                <td class="count">23</td>
+                <td class="percentage">5.97%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31855712" target="_blank" class="news-link">视频丨习近平同美国总统特朗普在釜山举行会晤</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时21分</font><br>[知乎] <a href="https://www.zhihu.com/question/1967494414290084753" target="_blank" class="news-link">美参议院通过终止特朗普全面关税政策决议，这意味着什么？美国全面关税政策最终会取消吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时21分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8ntVHnP7AGG" target="_blank" class="news-link">特朗普下令重启核试验，美国官员麻了：不切实际</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时21分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758273" target="_blank" class="news-link">习近平同美国总统特朗普在釜山举行会晤</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时21分</font><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ntY8Hc39aa" target="_blank" class="news-link">“日本想效仿韩国采购美国核潜艇，但中俄朝肯定反对”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2289629" target="_blank" class="news-link">董军与美国国防部长会谈</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时21分</font></div><br>[卫星通讯社] <a href="https://sputniknews.cn/20251031/1068161810.html" target="_blank" class="news-link">媒体：美国在政府报告中首次承认以军可能侵犯人权</a> [6] <font color='grey'>- 14时21分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758359" target="_blank" class="news-link">一天蒸发300亿！美国金融科技史上罕见“血案”是怎么酿成的</a> [8] <font color='grey'>- 14时21分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/17a214a4ebb6488c81af9aa9266dd8ed.html" target="_blank" class="news-link">哥伦比亚总统：美国轰炸“贩毒船”绝对无效</a> [11] <font color='grey'>- 14时21分</font><br>[卫星通讯社] <a href="https://sputniknews.cn/20251031/1068160947.html" target="_blank" class="news-link">美国专家认为“海燕”和“波塞冬”将赋予俄罗斯优势</a> [11] <font color='grey'>- 14时21分</font><br>[卫星通讯社] <a href="https://sputniknews.cn/20251031/1068160724.html" target="_blank" class="news-link">德国政治家：美国的核武器试验将打破禁忌，使得核战争更为接近</a> [12] <font color='grey'>- 14时21分</font><br>[微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%BE%8E%E5%9B%BD%E7%94%B7%E5%AD%90%E5%9C%A8%E9%85%92%E5%BA%97%E6%B4%97%E6%BE%A1%E8%A2%AB%E7%83%AD%E6%B0%B4%E7%83%AB%E6%AD%BB%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26band_rank%3D13%26lcate%3D5001%26flag%3D0%26pos%3D14%26filter_type%3Drealtimehot%26q%3D%2523%25E7%25BE%258E%25E5%259B%25BD%25E7%2594%25B7%25E5%25AD%2590%25E5%259C%25A8%25E9%2585%2592%25E5%25BA%2597%25E6%25B4%2597%25E6%25BE%25A1%25E8%25A2%25AB%25E7%2583%25AD%25E6%25B0%25B4%25E7%2583%25AB%25E6%25AD%25BB%2523%26c_type%3D31%26cate%3D5001%26realpos%3D13%26dgr%3D0%26display_time%3D1761891344%26pre_seqid%3D17618913443980252667129" target="_blank" class="news-link">美国男子在酒店洗澡被热水烫死</a> [13] <font color='grey'>- 14时21分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/3156176.html" target="_blank" class="news-link">特朗普可以连任第三届美国总统吗？</a> [13] <font color='grey'>- 14时21分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/da9a2baf480a47e5b9cba22ee1853e15.html" target="_blank" class="news-link">法国外长：对美国在加勒比行动表示关切</a> [14] <font color='grey'>- 14时21分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/f0087bdc6fde411d97cf88134c863679.html" target="_blank" class="news-link">两年内美国或掌握5成芯片市场 岛内网友惊呼“台湾没筹码啰”</a> [16] <font color='grey'>- 14时21分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/f24de441e3b94904860d1b0efc57114e.html" target="_blank" class="news-link">英媒：美国悄悄补缴拖欠的WTO会费</a> [17] <font color='grey'>- 14时21分</font><br>[卫星通讯社] <a href="https://sputniknews.cn/20251031/1068160074.html" target="_blank" class="news-link">美前外交官 ：特朗普的TikTok协议引起美国“犹太复国主义游说集团”的关注</a> [18] <font color='grey'>- 14时21分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/3156171.html" target="_blank" class="news-link">伊朗外长：美国恢复核试验是倒退且不负责任</a> [18] <font color='grey'>- 14时21分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/4a156d9fb62c4ef88f0c72790b0231e8.html" target="_blank" class="news-link">美媒：美国经济陷入“K型”分化态势</a> [20] <font color='grey'>- 14时21分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/3156169.html" target="_blank" class="news-link">美国空管员短缺 奥兰多国际机场料暂停飞机降落</a> [20] <font color='grey'>- 14时21分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/56b115bc348e4c17b2726735c0b21dc3.html" target="_blank" class="news-link">美媒：美国参议院通过决议要求取消对加拿大关税</a> [23] <font color='grey'>- 14时21分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/67f21727e5de48718692526591b13c40.html" target="_blank" class="news-link">外媒：墨西哥总统反对美国在国际水域袭击船只</a> [24] <font color='grey'>- 14时21分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6%E5%B7%9E%E5%AE%A3%E5%B8%83%E8%BF%9B%E5%85%A5%E7%B4%A7%E6%80%A5%E7%8A%B6%E6%80%81" target="_blank" class="news-link">美国纽约州宣布进入紧急状态</a> [25] <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">18</td>
+                <td class="percentage">4.68%</td>
+                <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7567217931009589286/" target="_blank" class="news-link">建设绿色亚太 中国彰显担当</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时21分</font><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/810.htm" target="_blank" class="news-link">星巴克 CEO 回应出售中国业务：保留重要股权、看好市场长期增长</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时21分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8ntWw78LaPx" target="_blank" class="news-link">泽连斯基又怂恿：中国帮忙很重要，感谢</a> [6] <font color='grey'>- 14时21分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/31/dc7be3048ea54794a4b1d46c5326c86e.html" target="_blank" class="news-link">美媒：中国香水品牌开始走向世界</a> [6] <font color='grey'>- 14时21分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202510/3156183.html" target="_blank" class="news-link">中国要求宗教界把学习中共四中全会精神作为重大政治任务</a> [6] <font color='grey'>- 14时21分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8ntPrelhdxM" target="_blank" class="news-link">印度造船业又觉得自己行了：要成为中国替代</a> [8] <font color='grey'>- 14时21分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2187356" target="_blank" class="news-link">科技巨头主宰一切！亚洲股市“巨头依赖症”加深 中国市场是解药？</a> [9] <font color='grey'>- 14时21分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8ntWzf9kBSI" target="_blank" class="news-link">“中国限制微芯片出口，德国早不是游戏庄家，只能跟着玩”</a> [9] <font color='grey'>- 14时21分</font><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31855700" target="_blank" class="news-link">印尼确认将采购中国歼-10战斗机，国防部回应</a> [11] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2187471" target="_blank" class="news-link">中国服务器龙头超聚变筹备上市</a> [11] <font color='grey'>- 14时21分</font></div><br>[卫星通讯社] <a href="https://sputniknews.cn/20251031/1068161066.html" target="_blank" class="news-link">美媒：白宫在贸易协议框架内降低中国关税是一场豪赌</a> [13] <font color='grey'>- 14时21分</font><br>[卫星通讯社] <a href="https://sputniknews.cn/20251031/1068160618.html" target="_blank" class="news-link">美国贸易代表：对中国执行美中经贸协议情况的调查仍在继续</a> [14] <font color='grey'>- 14时21分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202510/3156174.html" target="_blank" class="news-link">中国10月制造业PMI降至六个月新低</a> [15] <font color='grey'>- 14时21分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7566660103055867940/" target="_blank" class="news-link">德国副总理被曝将主导跟中国对话</a> [20] <font color='grey'>- 14时21分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202510/3156164.html" target="_blank" class="news-link">中国满13岁女孩将可免费接种HPV双价疫苗</a> [24] <font color='grey'>- 14时21分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BD%93%E9%AA%8C%E5%B1%B1%E8%A5%BF4%E5%85%83%E4%B8%AD%E5%9B%BD%E6%B1%89%E5%A0%A1" target="_blank" class="news-link">体验山西4元中国汉堡</a> [25] <font color='grey'>- 14时21分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202510/3156163.html" target="_blank" class="news-link">王沪宁：以改革推动经济发展是中国社会长期稳定奇迹原因</a> [25] <font color='grey'>- 14时21分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/d8dd3171c56041be9636c15b3198dc28.html" target="_blank" class="news-link">巴基斯坦专家：中国高质量发展将取得新突破</a> [27] <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">7</td>
+                <td class="percentage">1.82%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31846731" target="_blank" class="news-link">对话哲学教授王小伟：当AI过于强大，人会失去什么？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时21分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758276" target="_blank" class="news-link">AI泡沫“风向标”：市场紧盯甲骨文的债券——AI杠杆的“最弱一环”</a> [10] <font color='grey'>- 14时21分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202510/3156179.html" target="_blank" class="news-link">评论：人工智能引发的裁员潮真的到来了吗？</a> [10] <font color='grey'>- 14时21分</font><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/785.htm" target="_blank" class="news-link">索尼推出视频防伪技术，用 3D 景深数据戳穿 AI 生成的“假人”</a> [15] <font color='grey'>- 14时21分</font></div><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/7b57aaa4fe574d3b81abea52a8ea6c34.html" target="_blank" class="news-link">聚焦大型项目与人工智能 沙特举办“未来投资倡议”峰会</a> [21] <font color='grey'>- 14时21分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/opinion/202510/3156158.html" target="_blank" class="news-link">黄龙翔 吕赐杰：AI答不答？——两款聊天机器人的教学理念分野</a> [29] <font color='grey'>- 14时21分</font><br>[it之家] <a href="https://www.ithome.com/0/893/762.htm" target="_blank" class="news-link">澳大利亚警方借助 AI 解码犯罪分子常用 emoji“弦外之音”，遏制网络犯罪</a> [29] <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">4</td>
+                <td class="percentage">1.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/817.htm" target="_blank" class="news-link">三星和英伟达宣布共建 AI 工厂，采购超 5 万块 GPU</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/795.htm" target="_blank" class="news-link">英伟达黄仁勋 15 年来首次正式访韩，与三星李在镕等一起吃炸鸡</a> [11] <font color='grey'>- 14时21分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B8%82%E5%80%BC%E7%AA%81%E7%A0%B45%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83" target="_blank" class="news-link">英伟达市值突破5万亿美元</a> [19] <font color='grey'>- 14时21分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7567241282305756722/" target="_blank" class="news-link">黄仁勋调侃李在镕：我用三星时你还小</a> [22] <font color='grey'>- 14时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">4</td>
+                <td class="percentage">1.04%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758264" target="_blank" class="news-link">美股延续美联储会后颓势，Meta重挫拖累科技股，加密货币大跌，亚马逊苹果绩后大涨</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时21分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758368" target="_blank" class="news-link">服务力挺苹果上季营收创同期新高，在华收入意外下滑，iPhone淡季销售逊色，但料本季两位数大增 | 财报见闻</a> [9] <font color='grey'>- 14时21分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2187057" target="_blank" class="news-link">苹果第四财季业绩超预期 库克预告iPhone 17“爆表”热卖</a> [10] <font color='grey'>- 14时21分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/10/30/1c9ea8289f99463a845125b63494ac34.html" target="_blank" class="news-link">苹果市值首破4万亿美元关口</a> [22] <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/800.htm" target="_blank" class="news-link">谷歌 Gboard 输入法将增“热门趋势”，让 GIF 斗图跟上热点</a> [8] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/792.htm" target="_blank" class="news-link">谷歌安卓音频“黑箱”揭秘：为何你的无损音乐被系统“降级”了</a> [14] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/784.htm" target="_blank" class="news-link">谷歌 Pixel 10 系列手机用户吐槽：通话想开个免提，得靠“手速”狂点屏幕</a> [16] <font color='grey'>- 14时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">2</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [it之家] <a href="https://www.ithome.com/0/893/814.htm" target="_blank" class="news-link">Omdia 报告 2025Q3 全球手机出货量：三星同比增 6%、苹果增 4%、小米增 1%、传音增 12%、vivo 增 5%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时21分</font></div><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346461&amp;amp;topic_name=%E5%85%A5%E4%BE%B5%E9%81%AD%E9%AA%82%2C%E5%B0%8F%E7%B1%B3%E5%B9%BF%E5%91%8A%E7%8B%82%E8%BD%B0%E9%9F%B3%E5%93%8D%E5%90%A7" target="_blank" class="news-link">入侵遭骂,小米广告狂轰音响吧</a> [30] <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">手机</td>
+                <td class="count">2</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31856627" target="_blank" class="news-link">福建多地出现针对学生手机卡的盗窃案，多名学生因此涉诈</a> [20] <font color='grey'>- 14时21分</font><br>[it之家] <a href="https://www.ithome.com/0/893/772.htm" target="_blank" class="news-link">夏普发布 198 克轻量级 VR 眼镜 Xrostella VR1：可连电脑手机，6DoF 追踪</a> [25] <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31855899" target="_blank" class="news-link">AI投资大赛：DeepSeek回报率领跑，GPT亏麻了</a> [10] <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td class="word">比亚迪 王传福</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[联合早报] <a href="https://www.zaochenbao.com/news/china/202510/3156165.html" target="_blank" class="news-link">价格战影响 比亚迪第三季净利润大跌逾32%</a> [23] <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>11</td>
+                <td class="word">宇树 王兴兴</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1964768855290242461" target="_blank" class="news-link">宇树科技人形机器人 H2 加入仿生人脸，有些人觉得长得吓人，为什么机器人有了脸之后会觉得吓人？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>12</td>
+                <td class="word">米哈游 原神 星穹铁道</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346486&amp;amp;topic_name=%E7%BC%BA%E9%92%B1%E8%A7%81%E8%A1%80%21%E7%B1%B3%E5%93%88%E6%B8%B8%E6%8C%A5%E5%88%80%E5%AE%B0%E7%8E%A9%E5%AE%B6" target="_blank" class="news-link">缺钱见血!米哈游挥刀宰玩家</a> [19] <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>13</td>
+                <td class="word">京东 刘强东</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%BA%AC%E4%B8%9C%E6%AF%8F2%E5%B0%8F%E6%97%B6%E9%80%81%E7%94%B5%E8%A7%86%E6%89%8B%E6%9C%BA%E6%9C%BA%E5%99%A8%E4%BA%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26band_rank%3D14%26lcate%3D5001%26flag%3D1%26pos%3D15%26filter_type%3Drealtimehot%26q%3D%2523%25E4%25BA%25AC%25E4%25B8%259C%25E6%25AF%258F2%25E5%25B0%258F%25E6%2597%25B6%25E9%2580%2581%25E7%2594%25B5%25E8%25A7%2586%25E6%2589%258B%25E6%259C%25BA%25E6%259C%25BA%25E5%2599%25A8%25E4%25BA%25BA%2523%26c_type%3D31%26cate%3D5001%26realpos%3D14%26dgr%3D0%26display_time%3D1761891344%26pre_seqid%3D17618913443980252667129" target="_blank" class="news-link">京东每2小时送电视手机机器人</a> [14] <font color='grey'>- 14时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>14</td>
+                <td class="word">微软 Microsoft</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[it之家] <a href="https://www.ithome.com/0/893/780.htm" target="_blank" class="news-link">微软 Windows 95 开发轶闻：把全新界面移植到 Windows NT 可不是轻松活</a> [19] <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>15</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1965433673500297074" target="_blank" class="news-link">如何看待博主基德的新视频《人形机器人为什么注定失败》？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+            <tr>
+                <td>16</td>
+                <td class="word">月球 登月 火星 宇宙 飞船</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles">[联合早报] <a href="https://www.zaochenbao.com/news/politics/202510/3156168.html" target="_blank" class="news-link">日本新一代货运飞船与国际空间站成功对接</a> [21] <font color='grey'>- 14时21分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 14 条)</h3>
+        <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7567241282305756722/" target="_blank" class="news-link">黄仁勋调侃李在镕：我用三星时你还小</a> [22]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_31855700" target="_blank" class="news-link">印尼确认将采购中国歼-10战斗机，国防部回应</a> [11]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2187471" target="_blank" class="news-link">中国服务器龙头超聚变筹备上市</a> [11]</li></ul><h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8ntY8Hc39aa" target="_blank" class="news-link">“日本想效仿韩国采购美国核潜艇，但中俄朝肯定反对”</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>微博 (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%BA%AC%E4%B8%9C%E6%AF%8F2%E5%B0%8F%E6%97%B6%E9%80%81%E7%94%B5%E8%A7%86%E6%89%8B%E6%9C%BA%E6%9C%BA%E5%99%A8%E4%BA%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26band_rank%3D14%26lcate%3D5001%26flag%3D1%26pos%3D15%26filter_type%3Drealtimehot%26q%3D%2523%25E4%25BA%25AC%25E4%25B8%259C%25E6%25AF%258F2%25E5%25B0%258F%25E6%2597%25B6%25E9%2580%2581%25E7%2594%25B5%25E8%25A7%2586%25E6%2589%258B%25E6%259C%25BA%25E6%259C%25BA%25E5%2599%25A8%25E4%25BA%25BA%2523%26c_type%3D31%26cate%3D5001%26realpos%3D14%26dgr%3D0%26display_time%3D1761891344%26pre_seqid%3D17618913443980252667129" target="_blank" class="news-link">京东每2小时送电视手机机器人</a> [14]</li></ul><h4>抖音 (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2289629" target="_blank" class="news-link">董军与美国国防部长会谈</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>it之家 (8 条)</h4><ul><li><a href="https://www.ithome.com/0/893/817.htm" target="_blank" class="news-link">三星和英伟达宣布共建 AI 工厂，采购超 5 万块 GPU</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://www.ithome.com/0/893/814.htm" target="_blank" class="news-link">Omdia 报告 2025Q3 全球手机出货量：三星同比增 6%、苹果增 4%、小米增 1%、传音增 12%、vivo 增 5%</a> <font color='red'><strong>[2]</strong></font></li><li><a href="https://www.ithome.com/0/893/810.htm" target="_blank" class="news-link">星巴克 CEO 回应出售中国业务：保留重要股权、看好市场长期增长</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://www.ithome.com/0/893/800.htm" target="_blank" class="news-link">谷歌 Gboard 输入法将增“热门趋势”，让 GIF 斗图跟上热点</a> [8]</li><li><a href="https://www.ithome.com/0/893/795.htm" target="_blank" class="news-link">英伟达黄仁勋 15 年来首次正式访韩，与三星李在镕等一起吃炸鸡</a> [11]</li><li><a href="https://www.ithome.com/0/893/792.htm" target="_blank" class="news-link">谷歌安卓音频“黑箱”揭秘：为何你的无损音乐被系统“降级”了</a> [14]</li><li><a href="https://www.ithome.com/0/893/785.htm" target="_blank" class="news-link">索尼推出视频防伪技术，用 3D 景深数据戳穿 AI 生成的“假人”</a> [15]</li><li><a href="https://www.ithome.com/0/893/784.htm" target="_blank" class="news-link">谷歌 Pixel 10 系列手机用户吐槽：通话想开个免提，得靠“手速”狂点屏幕</a> [16]</li></ul></div>
+    </body>
+    </html>
+    
